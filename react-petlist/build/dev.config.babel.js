@@ -17,7 +17,15 @@ const webpackConfig = {
     ],
     extensions: ['', '.js', '.json']
   },
-  module: {}
+  module: {
+    // preLoaders: [
+    //   { test: /\.json$/, loader: 'json-loader'}
+    // ],
+    loaders: [
+      { test: /\.json$/, loader: 'json-loader'},
+      { test: /\.css$/, loader: "style-loader!css-loader" }
+    ]
+  }
 };
 
 // ------------------------------------

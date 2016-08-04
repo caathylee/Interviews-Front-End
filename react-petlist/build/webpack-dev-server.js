@@ -25,6 +25,11 @@ const middleware = webpackMiddleware(compiler, serverOptions);
 app.use(middleware);
 app.use(webpackHotMiddleware(compiler));
 app.use('/static', express.static('./src/web-api'));
+// app.use('/static', '../example/style.css');
+
+// app.get('/static', function (req, res) {
+//   res.sendFile(path.resolve(__dirname + '/../example/index.html'));
+// });
 
 app.listen(config.server_port, function onAppListening(err) {
   if (err) {

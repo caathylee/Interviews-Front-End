@@ -1,0 +1,12 @@
+body {
+  color: red;
+  background-color: yellow;
+}
+
+ul#search-nav {
+  list-style-type: none;
+}
+
+#content {
+  background-color: grey;
+}

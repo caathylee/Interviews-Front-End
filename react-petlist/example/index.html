@@ -3,6 +3,48 @@
 <head>
   <meta charset="utf-8">
   <title>React Template</title>
+  <!-- this stylesheet doesn't work yet -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script type="text/javascript" src="../src/web-api.search.json"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    /*Search Filter Bar */
+
+    #search-filter-section {
+      background-color: #dedddb;
+
+    }
+
+    
+    ul {
+      list-style-type: none;
+    }
+
+    #search-nav li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    span.subheading {
+      color: grey;
+    }
+
+    /*Listings*/
+    .title {
+      color: #6dcac8;
+      font-weight: 800;
+      font-size: 20px;
+    }
+    #one-listing {
+      padding: 15px 40px;
+    }
+
+  </style>
 
   <!-- build:css -->
   <!-- endbuild -->
@@ -12,7 +54,8 @@
 <br/><br/>
 <button id="addPet">Add Pet</button>
 <div id="petList"></div>
-<div id="content"></div>
+<div id="content">
+</div>
 
 <!-- build:js -->
 <!-- endbuild -->

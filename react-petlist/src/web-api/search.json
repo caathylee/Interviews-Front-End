@@ -1,8 +1,8 @@
 {
-  "search" : [
+  "search": [
     {
       "title": "title 1",
-      "description": "word1 description1 word2 description2 word3 description3 word4 description4",
+      "description": "Doggie Disneyland! Bow Wow Bungalow is one part hotel and one part spa. We provide daycare and boarding with doggie cams. We groom, too! word1 description1 word2 description2 word3 description3 word4 description4",
       "user": {
         "first": "doug",
         "last": "mc dougal"
@@ -11,11 +11,12 @@
         "id": 1,
         "name": "fido",
         "type": "dog"
-      }      
+      },
+      "service": "boarding"
     },
     {
       "title": " yippie skippy doggie  day-daycare",
-      "desciption": "description description",
+      "description": "description description",
       "user": {
         "first": "george",
         "last": "lucus"
@@ -24,11 +25,12 @@
         "id": 2,
         "name": "kitty",
         "type": "cat"
-      }
+      },
+      "service": "sitting"
     },
     {
       "title": "my doggie's play pen",
-      "desciption": "memememem mememmememeem memememe mememememememe mememem",
+      "description": "memememem mememmememeem memememe mememememememe mememem",
       "user": {
         "first": "luke",
         "last": "skywalker"
@@ -37,7 +39,22 @@
         "id": 3,
         "name": "ribbet",
         "type": "frog"
-      }
+      },
+      "service": "sitting"
+    },
+    {
+      "title": "Bow Wow Bungalow Doggie Daycare and Boarding",
+      "description": "Doggie Disneyland! Bow Wow Bungalow is one part hotel and one part spa. We provide daycare and boarding with doggie cams. We groom, too!",
+      "user": {
+        "first": "cathy",
+        "last": "lee"
+      },
+      "pet": {
+        "id": 4,
+        "name": "pudge",
+        "type": "dog"
+      },
+      "service": "boarding"
     }
   ]
 }
