@@ -22,6 +22,10 @@ class SearchBar extends Component {
 
   }
 
+  handleChange() {
+    this.setState({clickedBoarding: !this.state.clickedBoarding});
+  }
+
 
   render() {
     return (
@@ -29,8 +33,8 @@ class SearchBar extends Component {
         <hr></hr>
         <ul id="search-nav">
           <li>Looking For</li>
-          <li><input onClick={() => this.setState({clickedBoarding: !this.state.clickedBoarding})} type="checkbox" value="boarding-checkbox"/> Boarding <span className="subheading"> at Host's home</span></li>
-          <li><input onClick={() => this.setState({clickedSitting: !this.state.clickedSitting})} type="checkbox" value="sitting-checkbox"/> Sitting <span className="subheading">at my home</span></li>
+          <li><input onClick={() => this.setState({clickedBoarding: !this.state.clickedBoarding})} id="boarding-box" type="checkbox" onChange={this.handleChange.bind(this)} value="boarding-checkbox"/> Boarding <span className="subheading"> at Host's home</span></li>
+          <li><input onClick={() => this.setState({clickedSitting: !this.state.clickedSitting})} id="sitting-box" type="checkbox" onChange={this.handleChange.bind(this)} value="sitting-checkbox"/> Sitting <span className="subheading">at my home</span></li>
         </ul>
         <hr></hr>
       </div>
