@@ -15,17 +15,10 @@ const dest = document.getElementById('content');
 //   dest
 // );
 
-// ReactDom.render(
-//   (<Router history={browserHistory}>
-//       <Route path="/" component={Search} />
-//     </Router>
-//   ),
-//   dest
-// );
-
 ReactDOM.render(
   <div>
     <Content />
+    <Test />
   </div>,
   dest
 );

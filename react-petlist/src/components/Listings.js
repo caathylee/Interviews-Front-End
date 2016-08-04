@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Content from './Content';
-require("!css!../../example/style.css");
-// var data = require('!json!../web-api/search.json');
 
 class Listings extends Component {
   constructor(props) {

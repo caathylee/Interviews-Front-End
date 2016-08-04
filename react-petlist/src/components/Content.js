@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Test from './Test';
-import SearchBar from './SearchBar';
 import Listings from './Listings';
 var data = require('!json!../web-api/search.json');
 
